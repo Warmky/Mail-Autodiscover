@@ -1,0 +1,24 @@
+
+
+<!-- Config for email address: info@namecheap.com -->
+Errorcode:600-Invalid Request
+
+
+<!-- Config for email address: info@maxroll.gg -->
+Errorcode:600-Invalid Request
+
+
+<!-- Config for email address: info@hu-berlin.de -->
+Errorcode:600-Invalid Request
+
+
+<!-- Config for email address: info@myket.ir -->
+Errorcode:600-Invalid Request
+
+
+<!-- Config for email address: info@jadwalnonton.com -->
+Errorcode:600-Invalid Request
+
+
+<!-- Config for email address: info@tu-chemnitz.de -->
+Errorcode:500-E-Mail-Adresse ungültig.

@@ -1,0 +1,16 @@
+
+
+<!-- Config for email address: info@uni-koeln.de -->
+Errorcode:600-Leere Anfrage kann nicht bearbeitet werden
+
+
+<!-- Config for email address: info@hu-berlin.de -->
+Errorcode:600-Invalid Request
+
+
+<!-- Config for email address: info@freehostia.com -->
+Errorcode:600-Invalid Request
+
+
+<!-- Config for email address: info@tu-chemnitz.de -->
+Errorcode:500-E-Mail-Adresse ungültig.

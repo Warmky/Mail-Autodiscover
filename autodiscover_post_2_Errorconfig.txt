@@ -1,0 +1,12 @@
+
+
+<!-- Config for email address: info@uni-koeln.de -->
+Errorcode:500-Adresse enthält Tippfehler oder ist keine RRZK-Adresse.
+
+
+<!-- Config for email address: info@hu-berlin.de -->
+Errorcode:600-Invalid Request
+
+
+<!-- Config for email address: info@tu-chemnitz.de -->
+Errorcode:500-E-Mail-Adresse nicht gefunden.

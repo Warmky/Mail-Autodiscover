@@ -1,0 +1,4 @@
+
+
+<!-- Config for email address: info@uni-koeln.de -->
+Errorcode:500-Adresse enthält Tippfehler oder ist keine RRZK-Adresse.

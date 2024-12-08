@@ -1,0 +1,492 @@
+
+
+<!-- Config for email address: info@icloud.com -->
+<?xml version="1.0" encoding="utf-8" ?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+<Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+<Account>
+<AccountType>email</AccountType>
+<Action>settings</Action>
+<Protocol>
+<Type>IMAP</Type>
+<Server>imap.mail.me.com</Server>
+<Port>993</Port>
+<DomainRequired>off</DomainRequired>
+<SPA>off</SPA>
+<SSL>on</SSL>
+<AuthRequired>on</AuthRequired>
+</Protocol>
+<Protocol>
+<Type>SMTP</Type>
+<Server>smtp.mail.me.com</Server>
+<Port>587</Port>
+<DomainRequired>off</DomainRequired>
+<SPA>off</SPA>
+<Encryption>TLS</Encryption>
+<AuthRequired>on</AuthRequired>
+</Protocol>
+</Account>
+</Response>
+</Autodiscover>
+
+
+<!-- Config for email address: info@seznam.cz -->
+<?xml version="1.0"?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+    <User>
+      <DisplayName>Seznam Email</DisplayName>
+    </User>
+    <Account>
+      <AccountType>email</AccountType>
+      <Action>settings</Action>
+      <Protocol>
+        <Type>IMAP</Type>
+        <Server>imap.seznam.cz</Server>
+        <Port>993</Port>
+        <DomainRequired>on</DomainRequired>
+        <SPA>on</SPA>
+        <SSL>on</SSL>
+        <LoginName>undefined</LoginName>
+      </Protocol>
+      <Protocol>
+        <Type>SMTP</Type>
+        <Server>smtp.seznam.cz</Server>
+        <Port>465</Port>
+        <DomainRequired>on</DomainRequired>
+        <SPA>on</SPA>
+        <SSL>on</SSL>
+        <LoginName>undefined</LoginName>
+        <TTL>0</TTL>
+        <SMTPLast>off</SMTPLast>
+      </Protocol>
+    </Account>
+  </Response>
+</Autodiscover>
+
+
+<!-- Config for email address: info@zoho.com -->
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+<Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/mobilesync/responseschema/2006">
+<Culture>en:us</Culture>
+<Action>
+<Settings>
+<Server>
+<Type>MobileSync</Type>
+<Url>https://msync.zoho.com/Microsoft-Server-ActiveSync</Url>
+<Name>https://msync.zoho.com/Microsoft-Server-ActiveSync</Name>
+</Server>
+</Settings>
+</Action>
+</Response>
+<Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+<Account>
+<AccountType>email</AccountType>
+<Action>settings</Action>
+<Protocol>
+<Type>IMAP</Type>
+<Server>imap.zoho.com</Server>
+<Port>993</Port>
+<DomainRequired>on</DomainRequired>
+<SPA>off</SPA>
+<SSL>on</SSL>
+<AuthRequired>on</AuthRequired>
+</Protocol>
+<Protocol>
+<Type>POP3</Type>
+<Server>pop.zoho.com</Server>
+<Port>995</Port>
+<DomainRequired>on</DomainRequired>
+<SPA>off</SPA>
+<SSL>on</SSL>
+<AuthRequired>on</AuthRequired>
+</Protocol>
+<Protocol>
+<Type>SMTP</Type>
+<Server>smtp.zoho.com</Server>
+<Port>465</Port>
+<DomainRequired>on</DomainRequired>
+<SPA>off</SPA>
+<SSL>on</SSL>
+<AuthRequired>on</AuthRequired>
+<UsePOPAuth>on</UsePOPAuth>
+<SMTPLast>off</SMTPLast>
+</Protocol>
+</Account>
+</Response>
+</Autodiscover>
+
+<!-- Config for email address: info@sapo.pt -->
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+    <User>
+      <DisplayName>SAPO Mail</DisplayName>
+    </User>
+    <Account>
+      <AccountType>email</AccountType>
+      <Action>settings</Action>
+      <Protocol>
+        <Type>IMAP</Type>
+        <Server>imap.sapo.pt</Server>
+        <Port>993</Port>
+        <DomainRequired>on</DomainRequired>
+        <SPA>off</SPA>
+        <SSL>on</SSL>
+        <AuthRequired>on</AuthRequired>
+              </Protocol>
+      <Protocol>
+        <Type>SMTP</Type>
+        <Server>smtp.sapo.pt</Server>
+        <Port>465</Port>
+        <DomainRequired>on</DomainRequired>
+        <SPA>off</SPA>
+        <SSL>on</SSL>
+        <AuthRequired>on</AuthRequired>
+              </Protocol>
+      <Protocol>
+        <Type>CALDAV</Type>
+        <Server>dav.sapo.pt</Server>
+        <Port>443</Port>
+        <DomainRequired>on</DomainRequired>
+        <SPA>off</SPA>
+        <SSL>on</SSL>
+        <AuthRequired>on</AuthRequired>
+              </Protocol>
+      <Protocol>
+        <Type>CARDDAV</Type>
+        <Server>dav.sapo.pt</Server>
+        <Port>443</Port>
+        <DomainRequired>on</DomainRequired>
+        <SPA>off</SPA>
+        <SSL>on</SSL>
+        <AuthRequired>on</AuthRequired>
+              </Protocol>
+    </Account>
+  </Response>
+</Autodiscover>
+
+
+<!-- Config for email address: info@porkbun.com -->
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+   <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+      <Account>
+         <AccountType>email</AccountType>
+         <Action>settings</Action>
+         <Protocol>
+            <Type>IMAP</Type>
+            <Server>imap.porkbun.com</Server>
+            <Port>993</Port>
+            <DomainRequired>on</DomainRequired>
+            <LoginName />
+            <SPA>off</SPA>
+            <SSL>on</SSL>
+            <AuthRequired>on</AuthRequired>
+         </Protocol>
+         <Protocol>
+            <Type>POP3</Type>
+            <Server>pop.porkbun.com</Server>
+            <Port>995</Port>
+            <DomainRequired>on</DomainRequired>
+            <LoginName />
+            <SPA>off</SPA>
+            <SSL>on</SSL>
+            <AuthRequired>on</AuthRequired>
+         </Protocol>
+         <Protocol>
+            <Type>SMTP</Type>
+            <Server>smtp.porkbun.com</Server>
+            <Port>587</Port>
+            <DomainRequired>on</DomainRequired>
+            <LoginName />
+            <SPA>off</SPA>
+            <Encryption>SSL</Encryption>
+            <AuthRequired>on</AuthRequired>
+            <UsePOPAuth>off</UsePOPAuth>
+            <SMTPLast>off</SMTPLast>
+         </Protocol>
+      </Account>
+   </Response>
+</Autodiscover>
+
+<!-- Config for email address: info@icloud.com.cn -->
+<?xml version="1.0" encoding="utf-8" ?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+<Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+<Account>
+<AccountType>email</AccountType>
+<Action>settings</Action>
+<Protocol>
+<Type>IMAP</Type>
+<Server>imap.mail.me.com</Server>
+<Port>993</Port>
+<DomainRequired>off</DomainRequired>
+<SPA>off</SPA>
+<SSL>on</SSL>
+<AuthRequired>on</AuthRequired>
+</Protocol>
+<Protocol>
+<Type>SMTP</Type>
+<Server>smtp.mail.me.com</Server>
+<Port>587</Port>
+<DomainRequired>off</DomainRequired>
+<SPA>off</SPA>
+<Encryption>TLS</Encryption>
+<AuthRequired>on</AuthRequired>
+</Protocol>
+</Account>
+</Response>
+</Autodiscover>
+
+
+<!-- Config for email address: info@infomaniak.ch -->
+<?xml version="1.0" encoding="utf-8" ?><Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+	<Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+		<Account>
+			<AccountType>email</AccountType>
+			<Action>settings</Action>
+			<Protocol>
+				<Type>IMAP</Type>
+				<Server>mail.infomaniak.com</Server>
+				<Port>993</Port>
+				<SPA>off</SPA>
+				<SSL>on</SSL>
+				<AuthRequired>on</AuthRequired>
+								<DomainRequired>on</DomainRequired>
+							</Protocol>
+			<Protocol>
+				<Type>POP3</Type>
+				<Server>mail.infomaniak.com</Server>
+				<Port>995</Port>
+				<SPA>off</SPA>
+				<SSL>on</SSL>
+				<AuthRequired>on</AuthRequired>
+								<DomainRequired>on</DomainRequired>
+							</Protocol>
+			<Protocol>
+				<Type>SMTP</Type>
+				<Server>mail.infomaniak.com</Server>
+				<Port>465</Port>
+				<SPA>off</SPA>
+				<SSL>on</SSL>
+				<Encryption>TLS</Encryption>
+				<AuthRequired>on</AuthRequired>
+							</Protocol>
+		</Account>
+	</Response>
+</Autodiscover>
+
+
+<!-- Config for email address: info@infomaniak.com -->
+<?xml version="1.0" encoding="utf-8" ?><Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+	<Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+		<Account>
+			<AccountType>email</AccountType>
+			<Action>settings</Action>
+			<Protocol>
+				<Type>IMAP</Type>
+				<Server>mail.infomaniak.com</Server>
+				<Port>993</Port>
+				<SPA>off</SPA>
+				<SSL>on</SSL>
+				<AuthRequired>on</AuthRequired>
+								<DomainRequired>on</DomainRequired>
+							</Protocol>
+			<Protocol>
+				<Type>POP3</Type>
+				<Server>mail.infomaniak.com</Server>
+				<Port>995</Port>
+				<SPA>off</SPA>
+				<SSL>on</SSL>
+				<AuthRequired>on</AuthRequired>
+								<DomainRequired>on</DomainRequired>
+							</Protocol>
+			<Protocol>
+				<Type>SMTP</Type>
+				<Server>mail.infomaniak.com</Server>
+				<Port>465</Port>
+				<SPA>off</SPA>
+				<SSL>on</SSL>
+				<Encryption>TLS</Encryption>
+				<AuthRequired>on</AuthRequired>
+							</Protocol>
+		</Account>
+	</Response>
+</Autodiscover>
+
+
+<!-- Config for email address: info@youradchoices.com -->
+<?xml version="1.0" encoding="utf-8" ?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+    <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+        <Account>
+            <AccountType>email</AccountType>
+            <Action>settings</Action>
+            <Protocol>
+                <Type>IMAP</Type>
+                <Server>youradchoices.com</Server>
+                <Port>993</Port>
+                <DomainRequired>off</DomainRequired>
+                <SPA>off</SPA>
+                <SSL>on</SSL>
+                <AuthRequired>on</AuthRequired>
+            </Protocol>
+
+            <Protocol>
+                <Type>SMTP</Type>
+                <Server>youradchoices.com</Server>
+                <Port>465</Port>
+                <DomainRequired>off</DomainRequired>
+                <SPA>off</SPA>
+                <SSL>on</SSL>
+                <AuthRequired>on</AuthRequired>
+                <UsePOPAuth>on</UsePOPAuth>
+                <SMTPLast>on</SMTPLast>
+            </Protocol>
+        </Account>
+    </Response>
+</Autodiscover>
+
+
+<!-- Config for email address: info@bigpond.com -->
+<?xml version="1.0" encoding="utf-8"?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+      <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <ErrorCode>NoError</ErrorCode>
+        <ErrorMessage />
+        <UserResponses>
+          <UserResponse>
+            <ErrorCode>InvalidRequest</ErrorCode>
+            <ErrorMessage>Your request is invalid</ErrorMessage>
+            <UserSettingErrors />
+            <UserSettings />
+          </UserResponse>
+        </UserResponses>
+      </Response>
+</Autodiscover>
+
+
+<!-- Config for email address: info@hosting-cloud.net -->
+<?xml version="1.0" encoding="utf-8"?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+    <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+        <User>
+            <DisplayName>CrossBox</DisplayName>
+            <EMailAddress>None</EMailAddress>	
+        </User>
+        <Account>
+            <AccountType>email</AccountType>
+            <Action>settings</Action>
+            <Protocol>
+                <Type>IMAP</Type>
+                <Server>mail.hosting-servers.com.au</Server>
+                <Port>993</Port>
+                <DomainRequired>off</DomainRequired>
+                <LoginName>None</LoginName>
+                <SPA>off</SPA>
+                <SSL>on</SSL>
+                <AuthRequired>on</AuthRequired>
+            </Protocol>
+            <Protocol>
+                <Type>SMTP</Type>
+                <Server>mail.hosting-servers.com.au</Server>
+                <Port>465</Port>
+                <DomainRequired>off</DomainRequired>
+                <LoginName>None</LoginName>
+                <SPA>off</SPA>
+                <SSL>on</SSL>
+                <AuthRequired>on</AuthRequired>
+            </Protocol>
+        </Account>
+    </Response>
+</Autodiscover>
+
+<!-- Config for email address: info@daad.de -->
+<?xml version="1.0" encoding="utf-8"?>
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response/>
+</Autodiscover>
+
+
+
+<!-- Config for email address: info@lima-city.de -->
+<?xml version="1.0" encoding="utf-8" ?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+  <Account>
+    <AccountType>email</AccountType>
+    <Action>settings</Action>
+    <Protocol>
+      <Type>IMAP</Type>
+      <LoginName>unknown@example.com</LoginName>
+      <Server>mail.lima-city.de</Server>
+      <Port>993</Port>
+      <DomainRequired>off</DomainRequired>
+      <SPA>off</SPA>
+      <SSL>on</SSL>
+      <AuthRequired>on</AuthRequired>
+    </Protocol>
+    <Protocol>
+      <Type>SMTP</Type>
+      <LoginName>unknown@example.com</LoginName>
+      <Server>mail.lima-city.de</Server>
+      <Port>465</Port>
+      <DomainRequired>off</DomainRequired>
+      <SPA>off</SPA>
+      <SSL>on</SSL>
+      <AuthRequired>on</AuthRequired>
+    </Protocol>
+  </Account>
+  </Response>
+</Autodiscover>
+
+
+
+<!-- Config for email address: info@bata.com -->
+<?xml version="1.0" encoding="utf-8"?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+    <User>
+      <DisplayName/>
+    </User>
+    <Account>
+      <AccountType>email</AccountType>
+      <Action>settings</Action>
+      <ServiceHome>https://thebatacompany.com</ServiceHome>
+      <Protocol>
+        <Type>IMAP</Type>
+        <TTL>168</TTL>
+        <Server>outlook.office365.com</Server>
+        <Port>993</Port>
+        <DomainRequired>on</DomainRequired>
+        <LoginName/>
+        <SPA>off</SPA>
+        <SSL>on</SSL>
+        <AuthRequired>on</AuthRequired>
+        <UsePOPAuth>on</UsePOPAuth>
+        <SMTPLast>off</SMTPLast>
+      </Protocol>
+      <Protocol>
+        <Type>SMTP</Type>
+        <TTL>168</TTL>
+        <Server>smtp.office365.com</Server>
+        <Port>587</Port>
+        <DomainRequired>on</DomainRequired>
+        <LoginName/>
+        <SPA>off</SPA>
+        <SSL>on</SSL>
+        <AuthRequired>on</AuthRequired>
+        <UsePOPAuth>on</UsePOPAuth>
+        <SMTPLast>off</SMTPLast>
+      </Protocol>
+      <Protocol>
+        <Type>POP3</Type>
+        <Server>outlook.office365.com</Server>
+        <Port>995</Port>
+        <DomainRequired>on</DomainRequired>
+        <LoginName/>
+        <SPA>off</SPA>
+        <SSL>on</SSL>
+      </Protocol>
+    </Account>
+  </Response>
+</Autodiscover>
